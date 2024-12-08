@@ -1,0 +1,151 @@
+.heading{ background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+   
+    
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.soclink{
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+    width: 84%;
+    margin: 20px auto;
+    border-spacing: 15px;
+    
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Heading Styles */
+.heading {
+    text-align: center;
+    color: #007BFF;
+    margin: 20px 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* Contact Info Styles */
+div {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+div p {
+    margin: 5px 0;
+}
+
+/* Table for Profile Picture and Description */
+table {
+    width: 84%;
+    margin: 20px auto;
+    border-spacing: 15px;
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* margin-top: rem; */
+}
+
+table img {
+    border-radius: 50%;
+    width: 6rem;
+    
+    display: block;
+    margin: 0 auto;
+
+}
+
+
+table td {
+    vertical-align: top;
+    padding: 10px;
+}
+
+/* Section Styles */
+section {
+    width: 80%;
+    margin: 20px auto;
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+}
+
+section h2 {
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: square;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+/* FAQ Section */
+details {
+    width: 80%;
+    margin: 20px auto;
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+}
+
+details summary {
+    font-weight: bold;
+    cursor: pointer;
+    color: #333;
+}
+
+details p {
+    margin: 10px 0 0;
+    padding: 10px;
+    background: #f4f4f4;
+    border-radius: 5px;
+    color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    table {
+        width: 95%;
+    }
+
+    section {
+        width: 95%;
+    }
+
+    details {
+        width: 95%;
+    }
+
+    .heading {
+        font-size: 2rem;
+    }
+}
